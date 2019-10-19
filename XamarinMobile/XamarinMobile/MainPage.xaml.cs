@@ -26,15 +26,15 @@ namespace XamarinMobile
             //Cont_Work_DSoap, Cont_Work_DSoap12  두개중에 어느거?..
             Cont_Work_DSoapClient client = new Cont_Work_DSoapClient(EndpointConfiguration.Cont_Work_DSoap12);
 
+            await client.OpenAsync();
             User_Data[] ud = new User_Data[1];
             ud[0].Tran_Code = "111";
             ud[0].Tran_Name = "111";
             ud[0].Work_Group = "111";
             
             await client.Log_inAsync("userid", "pass", ud);
-
-
-            client.Close();
+            
+            await client.CloseAsync();
 
         }
     }
