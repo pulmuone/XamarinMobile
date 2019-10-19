@@ -1,0 +1,36 @@
+﻿{
+  "ProviderId": "Microsoft.VisualStudio.ConnectedService.Wcf",
+  "Version": "15.0.30730.948",
+  "ExtendedData": {
+    "inputs": [
+      "http://14.63.160.64:8080/cont_end/cont_work_d.asmx?wsdl"
+    ],
+    "collectionTypes": [
+      "System.Array",
+      "System.Collections.Generic.Dictionary`2"
+    ],
+    "namespaceMappings": [
+      "*, ServiceReference1"
+    ],
+    "references": [
+      "System.Numerics.Vectors, {System.Numerics.Vectors, 4.5.0}",
+      "System.Reflection.DispatchProxy, {System.Reflection.DispatchProxy, 4.5.0}",
+      "System.Security.AccessControl, {System.Security.AccessControl, 4.5.0}",
+      "System.Security.Cryptography.Xml, {System.Security.Cryptography.Xml, 4.5.0}",
+      "System.Security.Permissions, {System.Security.Permissions, 4.5.0}",
+      "System.Security.Principal.Windows, {System.Security.Principal.Windows, 4.5.0}",
+      "System.ServiceModel, {System.ServiceModel.Primitives, 4.7.0-preview1.final}",
+      "System.ServiceModel.Duplex, {System.ServiceModel.Duplex, 4.7.0-preview1.final}",
+      "System.ServiceModel.Http, {System.ServiceModel.Http, 4.7.0-preview1.final}",
+      "System.ServiceModel.NetTcp, {System.ServiceModel.NetTcp, 4.7.0-preview1.final}",
+      "System.ServiceModel.Primitives, {System.ServiceModel.Primitives, 4.7.0-preview1.final}",
+      "System.ServiceModel.Security, {System.ServiceModel.Security, 4.7.0-preview1.final}",
+      "Xamarin.Essentials, {Xamarin.Essentials, 1.3.1}",
+      "Xamarin.Forms.Core, {Xamarin.Forms, 4.3.0.851321-pre3}",
+      "Xamarin.Forms.Platform, {Xamarin.Forms, 4.3.0.851321-pre3}",
+      "Xamarin.Forms.Xaml, {Xamarin.Forms, 4.3.0.851321-pre3}"
+    ],
+    "targetFramework": "netstandard2.0",
+    "typeReuseMode": "All"
+  }
+}
